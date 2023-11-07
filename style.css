@@ -1,0 +1,97 @@
+
+
+body{
+    margin:0px;
+}
+
+nav{
+    background-color: greenyellow;
+    overflow: hidden;
+}
+
+nav a{
+    color:white;
+    text-decoration: none;
+    float: right;
+    padding: 20px;
+}
+
+nav a:hover{
+    color:blue;
+    text-decoration: none;
+    float: right;
+    padding: 20px;
+    background-color: white;
+}
+
+nav img{
+    display: block;
+    float: left; /* Apply 'float: left;' to the image */
+    margin-right: 10px;
+    
+}
+
+
+h1 {
+    color:brown;
+}
+
+.wrap{
+    padding: 40px 50px 50px 50px;
+    background-color: yellow;
+}
+
+.bg-login{
+    width: 480px;
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+input[type=text],input[type=password]{
+    width:350PX;
+    height: 25px;
+    padding-bottom: 10px;
+    /* vertical-align: auto; */
+}
+input[type=text]{
+    margin-bottom: 8px;
+}
+
+input[type=button] {
+    margin-top: 10px;
+    display: inline-block;
+    padding: 8px 158px;
+    background-color: blueviolet;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Add a transition for a smooth hover effect */
+}
+
+input[type=button]:hover {
+    background-color: darkviolet; /* Change the background color on hover */
+}
+
+
+
+.tombol {
+    margin-top: 6px;
+    margin-bottom: 10px;
+    display: inline-block;
+    padding: 5px 143px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
